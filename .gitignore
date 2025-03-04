@@ -171,4 +171,4 @@ cython_debug/
 .pypirc
 
 # occupancy data
-occupancy_data/occupancy_data.csv
+occupancy_data/occupancy_data.json

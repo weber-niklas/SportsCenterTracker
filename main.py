@@ -1,4 +1,4 @@
-import csv
+import json
 from time import sleep
 from typing import List, Tuple
 
@@ -24,10 +24,6 @@ def fetch_occupancy() -> Tuple[List[int], str]:
     # Find the relevant data
     people_counts: List[str] = [span.text.strip() for span in soup.select(".ICI span")]
 
-    people_counts: List[str] = people_counts[
-        :3
-    ]  # Only first three numbers are for fitness center
-
     people_counts: List[int] = [
         int(count) for count in people_counts if count.isdigit()
     ]
@@ -41,41 +37,37 @@ def fetch_occupancy() -> Tuple[List[int], str]:
     return people_counts, update_time
 
 
-def save_occupancy_data(update_time: str, occupancy: float, people_training: int):
-    with open("./occupancy_data/occupancy_data.csv", mode="a", newline="") as file:
-        writer = csv.writer(file)
+def save_occupancy_data(update_time: str, fitness_room_people_count: int, swimming_pool_people_count: int) -> None:
+    # Prepare the data entry
+    data_entry = {
+        "fitness_room_people_count": fitness_room_people_count,  
+        "pool_people_count": swimming_pool_people_count           
+    }
 
-        # If file is empty, write header
-        if file.tell() == 0:
-            writer.writerow(["Update Time", "Occupancy", "People Training"])
+    # Load existing data if available
+    try:
+        with open("occupancy_data/occupancy_data.json", "r") as file:
+            all_data = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        all_data = {}
 
-        # Write the occupancy data
-        writer.writerow(
-            [f"{update_time[0]} {update_time[1]}", f"{occupancy:.2f}%", people_training]
-        )
+    update_day: str = update_time[0]
+    update_time: str = update_time[1]
 
+    # Ensure the date key exists
+    if update_day not in all_data:
+        all_data[update_day] = {}
+    
+    if update_time in all_data[update_day]:
+        print(f"Data for {update_day} at {update_time} already exists")
+        return
 
-def read_occupancy_data() -> Tuple[List[str], List[float], List[int]]:
-    update_times: List[str] = []
-    occupancies: List[float] = []
-    people_trainings: List[int] = []
+    # Store data with timestamp
+    all_data[update_day][update_time] = data_entry
 
-    with open("./occupancy_data/occupancy_data.csv", mode="r") as file:
-        reader = csv.reader(file)
-        for row in reader:
-            if reader.line_num == 1:
-                continue
-            update_times.append(row[0])
-            occupancies.append(float(row[1].replace("%", "")))
-            people_trainings.append(int(row[2]))
-
-    return update_times, occupancies, people_trainings
-
-
-def clear_occupancy_data():
-    with open("./occupancy_data/occupancy_data.csv", mode="w", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerow(["Update Time", "Occupancy", "People Training"])
+    # Write the updated data back to the JSON file
+    with open("occupancy_data/occupancy_data.json", "w") as file:
+        json.dump(all_data, file)
 
 def update_occupancy_data():
     people_counts, update_time = fetch_occupancy()
@@ -88,11 +80,10 @@ def update_occupancy_data():
         print("No update time available")
         return
 
-    people_currently_trainig: int = people_counts[0]
-    people_capacity: int = people_counts[2]
-    occupancy = people_currently_trainig / people_capacity * 100
+    fitness_room_people_count: int = people_counts[0]
+    swimming_pool_people_count: int = people_counts[3]
 
-    save_occupancy_data(update_time, occupancy, people_currently_trainig)
+    save_occupancy_data(update_time, fitness_room_people_count, swimming_pool_people_count)
 
 def main():
     while True:
