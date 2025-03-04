@@ -1,10 +1,20 @@
 import json
+import logging
 from time import sleep
 from typing import List, Tuple
 
 import requests
 from bs4 import BeautifulSoup
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        logging.FileHandler("occupancy_scraper.log"),  # Save logs to a file
+        logging.StreamHandler()  # Print logs to console
+    ]
+)
 
 def fetch_occupancy() -> Tuple[List[int], str]:
     # URL of the page
@@ -59,7 +69,7 @@ def save_occupancy_data(update_time: str, fitness_room_people_count: int, swimmi
         all_data[update_day] = {}
     
     if update_time in all_data[update_day]:
-        print(f"Data for {update_day} at {update_time} already exists")
+        logging.warning(f"Data already exists for {update_day} {update_time} - skipping")
         return
 
     # Store data with timestamp
@@ -67,17 +77,17 @@ def save_occupancy_data(update_time: str, fitness_room_people_count: int, swimmi
 
     # Write the updated data back to the JSON file
     with open("occupancy_data/occupancy_data.json", "w") as file:
-        json.dump(all_data, file)
+        json.dump(all_data, file, indent=4)
 
 def update_occupancy_data():
     people_counts, update_time = fetch_occupancy()
 
     if len(people_counts) == 0:
-        print("No occupancy data available")
+        logging.error("Failed to fetch occupancy data")
         return
 
     if update_time == "N/A":
-        print("No update time available")
+        logging.error("Failed to fetch update time")
         return
 
     fitness_room_people_count: int = people_counts[0]
@@ -86,12 +96,13 @@ def update_occupancy_data():
     save_occupancy_data(update_time, fitness_room_people_count, swimming_pool_people_count)
 
 def main():
+    logging.info("Starting occupancy scraper")
     while True:
         try:
             update_occupancy_data()
-            sleep(5)
+            sleep(55)
         except KeyboardInterrupt:
-            print("Exiting...")
+            logging.info("Exiting occupancy scraper")
             break
 
 if __name__ == "__main__":
