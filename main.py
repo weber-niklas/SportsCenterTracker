@@ -1,6 +1,7 @@
 import datetime
 import json
 import logging
+import os
 from time import sleep
 from typing import List, Tuple
 
@@ -12,14 +13,21 @@ from bs4 import BeautifulSoup
 # Set timezone to Taipei
 TAIPEI_TZ = pytz.timezone("Asia/Taipei")
 
+# Ensure logs directory exists
+LOG_DIR = "logs"
+os.makedirs(LOG_DIR, exist_ok=True)
+
+# Generate log file name based on current date
+log_filename = os.path.join(LOG_DIR, f"occupancy_scraper_{datetime.datetime.now(TAIPEI_TZ).strftime('%Y-%m-%d')}.log")
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
-        logging.FileHandler("occupancy_scraper.log"),  # Save logs to a file
-        logging.StreamHandler(),  # Print logs to console
-    ],
+        logging.FileHandler(log_filename),  # Log to daily file
+        logging.StreamHandler()  # Also log to console
+    ]
 )
 
 
