@@ -4,6 +4,7 @@ from time import sleep
 from typing import List, Tuple
 
 import requests
+import schedule # pip install schedule
 from bs4 import BeautifulSoup
 
 logging.basicConfig(
@@ -93,14 +94,24 @@ def update_occupancy_data():
     fitness_room_people_count: int = people_counts[0]
     swimming_pool_people_count: int = people_counts[3]
 
+    logging.debug(f"Succesfully fetched data: {fitness_room_people_count} people in the fitness room, {swimming_pool_people_count} people in the swimming pool")
+
     save_occupancy_data(update_time, fitness_room_people_count, swimming_pool_people_count)
 
 def main():
     logging.info("Starting occupancy scraper")
+
+    schedule.every().hour.at('00:00').do(update_occupancy_data)
+    schedule.every().hour.at('10:00').do(update_occupancy_data)
+    schedule.every().hour.at('20:00').do(update_occupancy_data)
+    schedule.every().hour.at('30:00').do(update_occupancy_data)
+    schedule.every().hour.at('40:00').do(update_occupancy_data)
+    schedule.every().hour.at('50:00').do(update_occupancy_data)
+    
     while True:
         try:
-            update_occupancy_data()
-            sleep(55)
+            schedule.run_pending()
+            sleep(1)
         except KeyboardInterrupt:
             logging.info("Exiting occupancy scraper")
             break
