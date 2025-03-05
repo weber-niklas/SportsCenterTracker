@@ -1,11 +1,16 @@
+import datetime
 import json
 import logging
 from time import sleep
 from typing import List, Tuple
 
+import pytz  # pip install pytz
 import requests
-import schedule # pip install schedule
+import schedule  # pip install schedule
 from bs4 import BeautifulSoup
+
+# Set timezone to Taipei
+TAIPEI_TZ = pytz.timezone("Asia/Taipei")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -13,9 +18,10 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
         logging.FileHandler("occupancy_scraper.log"),  # Save logs to a file
-        logging.StreamHandler()  # Print logs to console
-    ]
+        logging.StreamHandler(),  # Print logs to console
+    ],
 )
+
 
 def fetch_occupancy() -> Tuple[List[int], str]:
     # URL of the page
@@ -48,11 +54,13 @@ def fetch_occupancy() -> Tuple[List[int], str]:
     return people_counts, update_time
 
 
-def save_occupancy_data(update_time: str, fitness_room_people_count: int, swimming_pool_people_count: int) -> None:
+def save_occupancy_data(
+    update_time: str, fitness_room_people_count: int, swimming_pool_people_count: int
+) -> None:
     # Prepare the data entry
     data_entry = {
-        "fitness_room_people_count": fitness_room_people_count,  
-        "pool_people_count": swimming_pool_people_count           
+        "fitness_room_people_count": fitness_room_people_count,
+        "pool_people_count": swimming_pool_people_count,
     }
 
     # Load existing data if available
@@ -68,9 +76,11 @@ def save_occupancy_data(update_time: str, fitness_room_people_count: int, swimmi
     # Ensure the date key exists
     if update_day not in all_data:
         all_data[update_day] = {}
-    
+
     if update_time in all_data[update_day]:
-        logging.warning(f"Data already exists for {update_day} {update_time} - skipping")
+        logging.warning(
+            f"Data already exists for {update_day} {update_time} - skipping"
+        )
         return
 
     # Store data with timestamp
@@ -80,7 +90,13 @@ def save_occupancy_data(update_time: str, fitness_room_people_count: int, swimmi
     with open("occupancy_data/occupancy_data.json", "w") as file:
         json.dump(all_data, file, indent=4)
 
+
 def update_occupancy_data():
+    now = datetime.datetime.now(TAIPEI_TZ)
+    if not (8 <= now.hour < 22):
+        logging.info("Outside of gym hours (08:00-22:00 Taipei time). Skipping...")
+        return
+
     people_counts, update_time = fetch_occupancy()
 
     if len(people_counts) == 0:
@@ -94,20 +110,25 @@ def update_occupancy_data():
     fitness_room_people_count: int = people_counts[0]
     swimming_pool_people_count: int = people_counts[3]
 
-    logging.debug(f"Succesfully fetched data: {fitness_room_people_count} people in the fitness room, {swimming_pool_people_count} people in the swimming pool")
+    logging.debug(
+        f"Succesfully fetched data: {fitness_room_people_count} people in the fitness room, {swimming_pool_people_count} people in the swimming pool"
+    )
 
-    save_occupancy_data(update_time, fitness_room_people_count, swimming_pool_people_count)
+    save_occupancy_data(
+        update_time, fitness_room_people_count, swimming_pool_people_count
+    )
+
 
 def main():
     logging.info("Starting occupancy scraper")
 
-    schedule.every().hour.at('00:00').do(update_occupancy_data)
-    schedule.every().hour.at('10:00').do(update_occupancy_data)
-    schedule.every().hour.at('20:00').do(update_occupancy_data)
-    schedule.every().hour.at('30:00').do(update_occupancy_data)
-    schedule.every().hour.at('40:00').do(update_occupancy_data)
-    schedule.every().hour.at('50:00').do(update_occupancy_data)
-    
+    schedule.every().hour.at("00:00").do(update_occupancy_data)
+    schedule.every().hour.at("10:00").do(update_occupancy_data)
+    schedule.every().hour.at("20:00").do(update_occupancy_data)
+    schedule.every().hour.at("30:00").do(update_occupancy_data)
+    schedule.every().hour.at("40:00").do(update_occupancy_data)
+    schedule.every().hour.at("50:00").do(update_occupancy_data)
+
     while True:
         try:
             schedule.run_pending()
@@ -115,6 +136,7 @@ def main():
         except KeyboardInterrupt:
             logging.info("Exiting occupancy scraper")
             break
+
 
 if __name__ == "__main__":
     main()
