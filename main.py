@@ -94,7 +94,7 @@ def save_occupancy_data(
 def update_occupancy_data():
     now = datetime.datetime.now(TAIPEI_TZ)
     if not (8 <= now.hour < 22):
-        logging.info("Outside of gym hours (08:00-22:00 Taipei time). Skipping...")
+        logging.debug("Outside of gym hours (08:00-22:00 Taipei time). Skipping...")
         return
 
     people_counts, update_time = fetch_occupancy()
@@ -122,12 +122,9 @@ def update_occupancy_data():
 def main():
     logging.info("Starting occupancy scraper")
 
-    schedule.every().hour.at("00:00").do(update_occupancy_data)
-    schedule.every().hour.at("10:00").do(update_occupancy_data)
-    schedule.every().hour.at("20:00").do(update_occupancy_data)
-    schedule.every().hour.at("30:00").do(update_occupancy_data)
-    schedule.every().hour.at("40:00").do(update_occupancy_data)
-    schedule.every().hour.at("50:00").do(update_occupancy_data)
+    # Schedule the scraper to run every 10 minutes
+    for minute in range(0, 60, 10):
+        schedule.every().hour.at(f"00:{minute:02d}").do(update_occupancy_data)
 
     while True:
         try:
