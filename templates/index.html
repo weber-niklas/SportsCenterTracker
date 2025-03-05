@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Center Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            justify-content: flex-start;
+        }
+        .menu-bar {
+            padding: 10px;
+            width: 70%;
+            text-align: left;
+            margin-top: 10px;
+            margin-left: 30px;
+            background-color: transparent;
+            border: none;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .toggle-button {
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            background-color: #ddd;
+            border-radius: 5px;
+            width: 250px;
+        }
+        .toggle-button.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .plot-container {
+            margin-top: 20px;
+            width: 70%;
+            text-align: left;
+            margin-left: 30px;
+        }
+        .plot-container img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <script>
+        function updatePlot() {
+            var selectedDay = document.getElementById("daySelect").value;
+            var selectedButton = document.querySelector('.toggle-button.active').id;  // ID des aktiven Buttons holen
+            // URL mit den Parametern für den Tag und den Button aktualisieren
+            window.location.href = "/?day=" + selectedDay + "&button=" + selectedButton;
+        }
+
+        function toggleButton(selectedButton) {
+            document.getElementById("gym").classList.remove("active");
+            document.getElementById("swimmingPool").classList.remove("active");
+            selectedButton.classList.add("active");
+            updatePlot(); // Sobald der Button gewechselt wird, wird die Plot-Anzeige aktualisiert
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Aktivieren des Buttons basierend auf dem URL-Parameter
+            var urlParams = new URLSearchParams(window.location.search);
+            var activeButton = urlParams.get('button') || 'gym';  // Standardmäßig 'gym'
+            
+            document.getElementById(activeButton).classList.add('active');
+
+            const today = new Date().toLocaleDateString('de-DE', { weekday: 'short' });
+            const dayMap = { 'Mo': 'Mo', 'Di': 'Di', 'Mi': 'Mi', 'Do': 'Do', 'Fr': 'Fr', 'Sa': 'Sa', 'So': 'So' };
+            var selectedDay = urlParams.get('day') || dayMap[today] || 'Mo';
+            document.getElementById("daySelect").value = selectedDay;
+        });
+    </script>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Sport Center Tracker</h1>
+
+        <!-- Zwei Buttons unter dem Titel -->
+        <div class="button-container">
+            <button id="gym" class="toggle-button" onclick="toggleButton(this)">Gym</button>
+            <button id="swimmingPool" class="toggle-button" onclick="toggleButton(this)">Schwimmhalle</button>
+        </div>
+        
+        <!-- Wochentagauswahl ohne grauen Hintergrund -->
+        <div class="menu-bar">
+            <label for="daySelect">Wochentag:</label>
+            <select id="daySelect" onchange="updatePlot()">
+                <option value="Mo" {% if selected_day == "Mo" %}selected{% endif %}>Montag</option>
+                <option value="Di" {% if selected_day == "Di" %}selected{% endif %}>Dienstag</option>
+                <option value="Mi" {% if selected_day == "Mi" %}selected{% endif %}>Mittwoch</option>
+                <option value="Do" {% if selected_day == "Do" %}selected{% endif %}>Donnerstag</option>
+                <option value="Fr" {% if selected_day == "Fr" %}selected{% endif %}>Freitag</option>
+                <option value="Sa" {% if selected_day == "Sa" %}selected{% endif %}>Samstag</option>
+                <option value="So" {% if selected_day == "So" %}selected{% endif %}>Sonntag</option>
+            </select>
+        </div>
+
+        <div class="plot-container">
+            <img src="data:image/png;base64,{{ plot_url1 }}" alt="Balkendiagramm zur Nutzung">
+        </div>
+
+        <div class="plot-container">
+            <img src="data:image/png;base64,{{ plot_url2 }}" alt="Auslastung pro Wochentag">
+        </div>
+    </div>
+
+</body>
+</html>
