@@ -75,6 +75,7 @@ def save_occupancy_data(
     try:
         with open("occupancy_data/occupancy_data.json", "r") as file:
             all_data = json.load(file)
+
     except (FileNotFoundError, json.JSONDecodeError):
         all_data = {}
 
@@ -131,8 +132,12 @@ def main():
     logging.info("Starting occupancy scraper")
 
     # Schedule the scraper to run every 10 minutes
-    for minute in range(0, 60, 10):
-        schedule.every().hour.at(f"00:{minute:02d}").do(update_occupancy_data)
+    schedule.every().hour.at(":00").do(update_occupancy_data)
+    schedule.every().hour.at(":10").do(update_occupancy_data)
+    schedule.every().hour.at(":20").do(update_occupancy_data)
+    schedule.every().hour.at(":30").do(update_occupancy_data)
+    schedule.every().hour.at(":40").do(update_occupancy_data)
+    schedule.every().hour.at(":50").do(update_occupancy_data)
 
     while True:
         try:
