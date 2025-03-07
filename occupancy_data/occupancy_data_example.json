@@ -1,0 +1,2336 @@
+{
+    "2025-03-03": {
+        "08:00": {
+            "fitness_room_people_count": 119,
+            "pool_people_count": 15
+        },
+        "08:10": {
+            "fitness_room_people_count": 89,
+            "pool_people_count": 17
+        },
+        "08:20": {
+            "fitness_room_people_count": 169,
+            "pool_people_count": 46
+        },
+        "08:30": {
+            "fitness_room_people_count": 85,
+            "pool_people_count": 12
+        },
+        "08:40": {
+            "fitness_room_people_count": 106,
+            "pool_people_count": 36
+        },
+        "08:50": {
+            "fitness_room_people_count": 96,
+            "pool_people_count": 9
+        },
+        "09:00": {
+            "fitness_room_people_count": 172,
+            "pool_people_count": 32
+        },
+        "09:10": {
+            "fitness_room_people_count": 181,
+            "pool_people_count": 20
+        },
+        "09:20": {
+            "fitness_room_people_count": 47,
+            "pool_people_count": 21
+        },
+        "09:30": {
+            "fitness_room_people_count": 11,
+            "pool_people_count": 3
+        },
+        "09:40": {
+            "fitness_room_people_count": 43,
+            "pool_people_count": 27
+        },
+        "09:50": {
+            "fitness_room_people_count": 173,
+            "pool_people_count": 43
+        },
+        "10:00": {
+            "fitness_room_people_count": 47,
+            "pool_people_count": 32
+        },
+        "10:10": {
+            "fitness_room_people_count": 10,
+            "pool_people_count": 22
+        },
+        "10:20": {
+            "fitness_room_people_count": 45,
+            "pool_people_count": 22
+        },
+        "10:30": {
+            "fitness_room_people_count": 39,
+            "pool_people_count": 28
+        },
+        "10:40": {
+            "fitness_room_people_count": 40,
+            "pool_people_count": 21
+        },
+        "10:50": {
+            "fitness_room_people_count": 46,
+            "pool_people_count": 32
+        },
+        "11:00": {
+            "fitness_room_people_count": 149,
+            "pool_people_count": 10
+        },
+        "11:10": {
+            "fitness_room_people_count": 157,
+            "pool_people_count": 16
+        },
+        "11:20": {
+            "fitness_room_people_count": 104,
+            "pool_people_count": 24
+        },
+        "11:30": {
+            "fitness_room_people_count": 128,
+            "pool_people_count": 21
+        },
+        "11:40": {
+            "fitness_room_people_count": 156,
+            "pool_people_count": 29
+        },
+        "11:50": {
+            "fitness_room_people_count": 75,
+            "pool_people_count": 48
+        },
+        "12:00": {
+            "fitness_room_people_count": 168,
+            "pool_people_count": 50
+        },
+        "12:10": {
+            "fitness_room_people_count": 19,
+            "pool_people_count": 8
+        },
+        "12:20": {
+            "fitness_room_people_count": 42,
+            "pool_people_count": 35
+        },
+        "12:30": {
+            "fitness_room_people_count": 105,
+            "pool_people_count": 19
+        },
+        "12:40": {
+            "fitness_room_people_count": 84,
+            "pool_people_count": 30
+        },
+        "12:50": {
+            "fitness_room_people_count": 2,
+            "pool_people_count": 0
+        },
+        "13:00": {
+            "fitness_room_people_count": 85,
+            "pool_people_count": 29
+        },
+        "13:10": {
+            "fitness_room_people_count": 130,
+            "pool_people_count": 3
+        },
+        "13:20": {
+            "fitness_room_people_count": 138,
+            "pool_people_count": 37
+        },
+        "13:30": {
+            "fitness_room_people_count": 25,
+            "pool_people_count": 29
+        },
+        "13:40": {
+            "fitness_room_people_count": 83,
+            "pool_people_count": 34
+        },
+        "13:50": {
+            "fitness_room_people_count": 110,
+            "pool_people_count": 31
+        },
+        "14:00": {
+            "fitness_room_people_count": 97,
+            "pool_people_count": 7
+        },
+        "14:10": {
+            "fitness_room_people_count": 117,
+            "pool_people_count": 37
+        },
+        "14:20": {
+            "fitness_room_people_count": 170,
+            "pool_people_count": 29
+        },
+        "14:30": {
+            "fitness_room_people_count": 42,
+            "pool_people_count": 24
+        },
+        "14:40": {
+            "fitness_room_people_count": 35,
+            "pool_people_count": 17
+        },
+        "14:50": {
+            "fitness_room_people_count": 55,
+            "pool_people_count": 40
+        },
+        "15:00": {
+            "fitness_room_people_count": 169,
+            "pool_people_count": 38
+        },
+        "15:10": {
+            "fitness_room_people_count": 69,
+            "pool_people_count": 38
+        },
+        "15:20": {
+            "fitness_room_people_count": 157,
+            "pool_people_count": 14
+        },
+        "15:30": {
+            "fitness_room_people_count": 159,
+            "pool_people_count": 15
+        },
+        "15:40": {
+            "fitness_room_people_count": 5,
+            "pool_people_count": 38
+        },
+        "15:50": {
+            "fitness_room_people_count": 46,
+            "pool_people_count": 15
+        },
+        "16:00": {
+            "fitness_room_people_count": 170,
+            "pool_people_count": 47
+        },
+        "16:10": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 33
+        },
+        "16:20": {
+            "fitness_room_people_count": 109,
+            "pool_people_count": 8
+        },
+        "16:30": {
+            "fitness_room_people_count": 117,
+            "pool_people_count": 49
+        },
+        "16:40": {
+            "fitness_room_people_count": 55,
+            "pool_people_count": 41
+        },
+        "16:50": {
+            "fitness_room_people_count": 136,
+            "pool_people_count": 10
+        },
+        "17:00": {
+            "fitness_room_people_count": 25,
+            "pool_people_count": 33
+        },
+        "17:10": {
+            "fitness_room_people_count": 147,
+            "pool_people_count": 29
+        },
+        "17:20": {
+            "fitness_room_people_count": 121,
+            "pool_people_count": 40
+        },
+        "17:30": {
+            "fitness_room_people_count": 73,
+            "pool_people_count": 1
+        },
+        "17:40": {
+            "fitness_room_people_count": 3,
+            "pool_people_count": 7
+        },
+        "17:50": {
+            "fitness_room_people_count": 2,
+            "pool_people_count": 43
+        },
+        "18:00": {
+            "fitness_room_people_count": 119,
+            "pool_people_count": 37
+        },
+        "18:10": {
+            "fitness_room_people_count": 163,
+            "pool_people_count": 1
+        },
+        "18:20": {
+            "fitness_room_people_count": 17,
+            "pool_people_count": 47
+        },
+        "18:30": {
+            "fitness_room_people_count": 163,
+            "pool_people_count": 12
+        },
+        "18:40": {
+            "fitness_room_people_count": 41,
+            "pool_people_count": 2
+        },
+        "18:50": {
+            "fitness_room_people_count": 72,
+            "pool_people_count": 34
+        },
+        "19:00": {
+            "fitness_room_people_count": 62,
+            "pool_people_count": 41
+        },
+        "19:10": {
+            "fitness_room_people_count": 3,
+            "pool_people_count": 12
+        },
+        "19:20": {
+            "fitness_room_people_count": 168,
+            "pool_people_count": 42
+        },
+        "19:30": {
+            "fitness_room_people_count": 167,
+            "pool_people_count": 35
+        },
+        "19:40": {
+            "fitness_room_people_count": 142,
+            "pool_people_count": 48
+        },
+        "19:50": {
+            "fitness_room_people_count": 77,
+            "pool_people_count": 46
+        },
+        "20:00": {
+            "fitness_room_people_count": 179,
+            "pool_people_count": 48
+        },
+        "20:10": {
+            "fitness_room_people_count": 139,
+            "pool_people_count": 44
+        },
+        "20:20": {
+            "fitness_room_people_count": 150,
+            "pool_people_count": 48
+        },
+        "20:30": {
+            "fitness_room_people_count": 37,
+            "pool_people_count": 8
+        },
+        "20:40": {
+            "fitness_room_people_count": 101,
+            "pool_people_count": 7
+        },
+        "20:50": {
+            "fitness_room_people_count": 1,
+            "pool_people_count": 22
+        },
+        "21:00": {
+            "fitness_room_people_count": 95,
+            "pool_people_count": 38
+        },
+        "21:10": {
+            "fitness_room_people_count": 73,
+            "pool_people_count": 43
+        },
+        "21:20": {
+            "fitness_room_people_count": 66,
+            "pool_people_count": 9
+        },
+        "21:30": {
+            "fitness_room_people_count": 4,
+            "pool_people_count": 33
+        },
+        "21:40": {
+            "fitness_room_people_count": 96,
+            "pool_people_count": 37
+        },
+        "21:50": {
+            "fitness_room_people_count": 18,
+            "pool_people_count": 21
+        },
+        "22:00": {
+            "fitness_room_people_count": 17,
+            "pool_people_count": 16
+        }
+    },
+    "2025-03-04": {
+        "08:00": {
+            "fitness_room_people_count": 160,
+            "pool_people_count": 6
+        },
+        "08:10": {
+            "fitness_room_people_count": 58,
+            "pool_people_count": 19
+        },
+        "08:20": {
+            "fitness_room_people_count": 117,
+            "pool_people_count": 48
+        },
+        "08:30": {
+            "fitness_room_people_count": 93,
+            "pool_people_count": 46
+        },
+        "08:40": {
+            "fitness_room_people_count": 112,
+            "pool_people_count": 33
+        },
+        "08:50": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 48
+        },
+        "09:00": {
+            "fitness_room_people_count": 168,
+            "pool_people_count": 15
+        },
+        "09:10": {
+            "fitness_room_people_count": 126,
+            "pool_people_count": 38
+        },
+        "09:20": {
+            "fitness_room_people_count": 10,
+            "pool_people_count": 6
+        },
+        "09:30": {
+            "fitness_room_people_count": 154,
+            "pool_people_count": 4
+        },
+        "09:40": {
+            "fitness_room_people_count": 90,
+            "pool_people_count": 38
+        },
+        "09:50": {
+            "fitness_room_people_count": 169,
+            "pool_people_count": 17
+        },
+        "10:00": {
+            "fitness_room_people_count": 27,
+            "pool_people_count": 41
+        },
+        "10:10": {
+            "fitness_room_people_count": 119,
+            "pool_people_count": 38
+        },
+        "10:20": {
+            "fitness_room_people_count": 133,
+            "pool_people_count": 1
+        },
+        "10:30": {
+            "fitness_room_people_count": 91,
+            "pool_people_count": 50
+        },
+        "10:40": {
+            "fitness_room_people_count": 52,
+            "pool_people_count": 45
+        },
+        "10:50": {
+            "fitness_room_people_count": 138,
+            "pool_people_count": 0
+        },
+        "11:00": {
+            "fitness_room_people_count": 112,
+            "pool_people_count": 23
+        },
+        "11:10": {
+            "fitness_room_people_count": 142,
+            "pool_people_count": 4
+        },
+        "11:20": {
+            "fitness_room_people_count": 106,
+            "pool_people_count": 50
+        },
+        "11:30": {
+            "fitness_room_people_count": 107,
+            "pool_people_count": 24
+        },
+        "11:40": {
+            "fitness_room_people_count": 85,
+            "pool_people_count": 13
+        },
+        "11:50": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 10
+        },
+        "12:00": {
+            "fitness_room_people_count": 139,
+            "pool_people_count": 34
+        },
+        "12:10": {
+            "fitness_room_people_count": 14,
+            "pool_people_count": 8
+        },
+        "12:20": {
+            "fitness_room_people_count": 38,
+            "pool_people_count": 28
+        },
+        "12:30": {
+            "fitness_room_people_count": 106,
+            "pool_people_count": 24
+        },
+        "12:40": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 3
+        },
+        "12:50": {
+            "fitness_room_people_count": 89,
+            "pool_people_count": 36
+        },
+        "13:00": {
+            "fitness_room_people_count": 9,
+            "pool_people_count": 7
+        },
+        "13:10": {
+            "fitness_room_people_count": 35,
+            "pool_people_count": 29
+        },
+        "13:20": {
+            "fitness_room_people_count": 146,
+            "pool_people_count": 27
+        },
+        "13:30": {
+            "fitness_room_people_count": 70,
+            "pool_people_count": 50
+        },
+        "13:40": {
+            "fitness_room_people_count": 126,
+            "pool_people_count": 18
+        },
+        "13:50": {
+            "fitness_room_people_count": 105,
+            "pool_people_count": 21
+        },
+        "14:00": {
+            "fitness_room_people_count": 51,
+            "pool_people_count": 46
+        },
+        "14:10": {
+            "fitness_room_people_count": 137,
+            "pool_people_count": 46
+        },
+        "14:20": {
+            "fitness_room_people_count": 181,
+            "pool_people_count": 24
+        },
+        "14:30": {
+            "fitness_room_people_count": 130,
+            "pool_people_count": 12
+        },
+        "14:40": {
+            "fitness_room_people_count": 176,
+            "pool_people_count": 11
+        },
+        "14:50": {
+            "fitness_room_people_count": 149,
+            "pool_people_count": 42
+        },
+        "15:00": {
+            "fitness_room_people_count": 67,
+            "pool_people_count": 0
+        },
+        "15:10": {
+            "fitness_room_people_count": 146,
+            "pool_people_count": 27
+        },
+        "15:20": {
+            "fitness_room_people_count": 76,
+            "pool_people_count": 30
+        },
+        "15:30": {
+            "fitness_room_people_count": 109,
+            "pool_people_count": 36
+        },
+        "15:40": {
+            "fitness_room_people_count": 19,
+            "pool_people_count": 1
+        },
+        "15:50": {
+            "fitness_room_people_count": 76,
+            "pool_people_count": 31
+        },
+        "16:00": {
+            "fitness_room_people_count": 77,
+            "pool_people_count": 36
+        },
+        "16:10": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 4
+        },
+        "16:20": {
+            "fitness_room_people_count": 162,
+            "pool_people_count": 5
+        },
+        "16:30": {
+            "fitness_room_people_count": 24,
+            "pool_people_count": 50
+        },
+        "16:40": {
+            "fitness_room_people_count": 87,
+            "pool_people_count": 42
+        },
+        "16:50": {
+            "fitness_room_people_count": 175,
+            "pool_people_count": 48
+        },
+        "17:00": {
+            "fitness_room_people_count": 104,
+            "pool_people_count": 41
+        },
+        "17:10": {
+            "fitness_room_people_count": 105,
+            "pool_people_count": 4
+        },
+        "17:20": {
+            "fitness_room_people_count": 130,
+            "pool_people_count": 38
+        },
+        "17:30": {
+            "fitness_room_people_count": 47,
+            "pool_people_count": 45
+        },
+        "17:40": {
+            "fitness_room_people_count": 152,
+            "pool_people_count": 5
+        },
+        "17:50": {
+            "fitness_room_people_count": 2,
+            "pool_people_count": 13
+        },
+        "18:00": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 30
+        },
+        "18:10": {
+            "fitness_room_people_count": 168,
+            "pool_people_count": 5
+        },
+        "18:20": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 30
+        },
+        "18:30": {
+            "fitness_room_people_count": 133,
+            "pool_people_count": 8
+        },
+        "18:40": {
+            "fitness_room_people_count": 71,
+            "pool_people_count": 38
+        },
+        "18:50": {
+            "fitness_room_people_count": 140,
+            "pool_people_count": 37
+        },
+        "19:00": {
+            "fitness_room_people_count": 164,
+            "pool_people_count": 28
+        },
+        "19:10": {
+            "fitness_room_people_count": 179,
+            "pool_people_count": 40
+        },
+        "19:20": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 44
+        },
+        "19:30": {
+            "fitness_room_people_count": 58,
+            "pool_people_count": 24
+        },
+        "19:40": {
+            "fitness_room_people_count": 180,
+            "pool_people_count": 47
+        },
+        "19:50": {
+            "fitness_room_people_count": 154,
+            "pool_people_count": 19
+        },
+        "20:00": {
+            "fitness_room_people_count": 139,
+            "pool_people_count": 2
+        },
+        "20:10": {
+            "fitness_room_people_count": 144,
+            "pool_people_count": 46
+        },
+        "20:20": {
+            "fitness_room_people_count": 31,
+            "pool_people_count": 50
+        },
+        "20:30": {
+            "fitness_room_people_count": 157,
+            "pool_people_count": 25
+        },
+        "20:40": {
+            "fitness_room_people_count": 12,
+            "pool_people_count": 15
+        },
+        "20:50": {
+            "fitness_room_people_count": 34,
+            "pool_people_count": 28
+        },
+        "21:00": {
+            "fitness_room_people_count": 105,
+            "pool_people_count": 42
+        },
+        "21:10": {
+            "fitness_room_people_count": 102,
+            "pool_people_count": 42
+        },
+        "21:20": {
+            "fitness_room_people_count": 152,
+            "pool_people_count": 18
+        },
+        "21:30": {
+            "fitness_room_people_count": 128,
+            "pool_people_count": 26
+        },
+        "21:40": {
+            "fitness_room_people_count": 99,
+            "pool_people_count": 2
+        },
+        "21:50": {
+            "fitness_room_people_count": 43,
+            "pool_people_count": 42
+        },
+        "22:00": {
+            "fitness_room_people_count": 150,
+            "pool_people_count": 43
+        }
+    },
+    "2025-03-05": {
+        "08:00": {
+            "fitness_room_people_count": 99,
+            "pool_people_count": 45
+        },
+        "08:10": {
+            "fitness_room_people_count": 69,
+            "pool_people_count": 7
+        },
+        "08:20": {
+            "fitness_room_people_count": 168,
+            "pool_people_count": 28
+        },
+        "08:30": {
+            "fitness_room_people_count": 135,
+            "pool_people_count": 37
+        },
+        "08:40": {
+            "fitness_room_people_count": 151,
+            "pool_people_count": 45
+        },
+        "08:50": {
+            "fitness_room_people_count": 141,
+            "pool_people_count": 48
+        },
+        "09:00": {
+            "fitness_room_people_count": 35,
+            "pool_people_count": 8
+        },
+        "09:10": {
+            "fitness_room_people_count": 84,
+            "pool_people_count": 2
+        },
+        "09:20": {
+            "fitness_room_people_count": 61,
+            "pool_people_count": 40
+        },
+        "09:30": {
+            "fitness_room_people_count": 96,
+            "pool_people_count": 36
+        },
+        "09:40": {
+            "fitness_room_people_count": 70,
+            "pool_people_count": 29
+        },
+        "09:50": {
+            "fitness_room_people_count": 36,
+            "pool_people_count": 34
+        },
+        "10:00": {
+            "fitness_room_people_count": 156,
+            "pool_people_count": 19
+        },
+        "10:10": {
+            "fitness_room_people_count": 166,
+            "pool_people_count": 25
+        },
+        "10:20": {
+            "fitness_room_people_count": 133,
+            "pool_people_count": 47
+        },
+        "10:30": {
+            "fitness_room_people_count": 143,
+            "pool_people_count": 11
+        },
+        "10:40": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 12
+        },
+        "10:50": {
+            "fitness_room_people_count": 25,
+            "pool_people_count": 17
+        },
+        "11:00": {
+            "fitness_room_people_count": 145,
+            "pool_people_count": 40
+        },
+        "11:10": {
+            "fitness_room_people_count": 161,
+            "pool_people_count": 41
+        },
+        "11:20": {
+            "fitness_room_people_count": 120,
+            "pool_people_count": 37
+        },
+        "11:30": {
+            "fitness_room_people_count": 171,
+            "pool_people_count": 25
+        },
+        "11:40": {
+            "fitness_room_people_count": 132,
+            "pool_people_count": 18
+        },
+        "11:50": {
+            "fitness_room_people_count": 88,
+            "pool_people_count": 4
+        },
+        "12:00": {
+            "fitness_room_people_count": 97,
+            "pool_people_count": 11
+        },
+        "12:10": {
+            "fitness_room_people_count": 41,
+            "pool_people_count": 45
+        },
+        "12:20": {
+            "fitness_room_people_count": 120,
+            "pool_people_count": 12
+        },
+        "12:30": {
+            "fitness_room_people_count": 143,
+            "pool_people_count": 20
+        },
+        "12:40": {
+            "fitness_room_people_count": 112,
+            "pool_people_count": 25
+        },
+        "12:50": {
+            "fitness_room_people_count": 94,
+            "pool_people_count": 50
+        },
+        "13:00": {
+            "fitness_room_people_count": 20,
+            "pool_people_count": 2
+        },
+        "13:10": {
+            "fitness_room_people_count": 24,
+            "pool_people_count": 31
+        },
+        "13:20": {
+            "fitness_room_people_count": 67,
+            "pool_people_count": 13
+        },
+        "13:30": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 2
+        },
+        "13:40": {
+            "fitness_room_people_count": 38,
+            "pool_people_count": 27
+        },
+        "13:50": {
+            "fitness_room_people_count": 65,
+            "pool_people_count": 5
+        },
+        "14:00": {
+            "fitness_room_people_count": 10,
+            "pool_people_count": 18
+        },
+        "14:10": {
+            "fitness_room_people_count": 55,
+            "pool_people_count": 6
+        },
+        "14:20": {
+            "fitness_room_people_count": 114,
+            "pool_people_count": 37
+        },
+        "14:30": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 7
+        },
+        "14:40": {
+            "fitness_room_people_count": 65,
+            "pool_people_count": 5
+        },
+        "14:50": {
+            "fitness_room_people_count": 64,
+            "pool_people_count": 16
+        },
+        "15:00": {
+            "fitness_room_people_count": 150,
+            "pool_people_count": 11
+        },
+        "15:10": {
+            "fitness_room_people_count": 98,
+            "pool_people_count": 37
+        },
+        "15:20": {
+            "fitness_room_people_count": 164,
+            "pool_people_count": 0
+        },
+        "15:30": {
+            "fitness_room_people_count": 104,
+            "pool_people_count": 40
+        },
+        "15:40": {
+            "fitness_room_people_count": 155,
+            "pool_people_count": 9
+        },
+        "15:50": {
+            "fitness_room_people_count": 71,
+            "pool_people_count": 11
+        },
+        "16:00": {
+            "fitness_room_people_count": 159,
+            "pool_people_count": 21
+        },
+        "16:10": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 35
+        },
+        "16:20": {
+            "fitness_room_people_count": 3,
+            "pool_people_count": 16
+        },
+        "16:30": {
+            "fitness_room_people_count": 177,
+            "pool_people_count": 46
+        },
+        "16:40": {
+            "fitness_room_people_count": 147,
+            "pool_people_count": 29
+        },
+        "16:50": {
+            "fitness_room_people_count": 157,
+            "pool_people_count": 30
+        },
+        "17:00": {
+            "fitness_room_people_count": 47,
+            "pool_people_count": 24
+        },
+        "17:10": {
+            "fitness_room_people_count": 171,
+            "pool_people_count": 33
+        },
+        "17:20": {
+            "fitness_room_people_count": 61,
+            "pool_people_count": 47
+        },
+        "17:30": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 13
+        },
+        "17:40": {
+            "fitness_room_people_count": 42,
+            "pool_people_count": 6
+        },
+        "17:50": {
+            "fitness_room_people_count": 69,
+            "pool_people_count": 12
+        },
+        "18:00": {
+            "fitness_room_people_count": 116,
+            "pool_people_count": 29
+        },
+        "18:10": {
+            "fitness_room_people_count": 168,
+            "pool_people_count": 25
+        },
+        "18:20": {
+            "fitness_room_people_count": 47,
+            "pool_people_count": 27
+        },
+        "18:30": {
+            "fitness_room_people_count": 141,
+            "pool_people_count": 16
+        },
+        "18:40": {
+            "fitness_room_people_count": 92,
+            "pool_people_count": 3
+        },
+        "18:50": {
+            "fitness_room_people_count": 94,
+            "pool_people_count": 42
+        },
+        "19:00": {
+            "fitness_room_people_count": 162,
+            "pool_people_count": 38
+        },
+        "19:10": {
+            "fitness_room_people_count": 164,
+            "pool_people_count": 8
+        },
+        "19:20": {
+            "fitness_room_people_count": 1,
+            "pool_people_count": 33
+        },
+        "19:30": {
+            "fitness_room_people_count": 144,
+            "pool_people_count": 31
+        },
+        "19:40": {
+            "fitness_room_people_count": 120,
+            "pool_people_count": 22
+        },
+        "19:50": {
+            "fitness_room_people_count": 68,
+            "pool_people_count": 17
+        },
+        "20:00": {
+            "fitness_room_people_count": 123,
+            "pool_people_count": 1
+        },
+        "20:10": {
+            "fitness_room_people_count": 142,
+            "pool_people_count": 46
+        },
+        "20:20": {
+            "fitness_room_people_count": 110,
+            "pool_people_count": 22
+        },
+        "20:30": {
+            "fitness_room_people_count": 107,
+            "pool_people_count": 48
+        },
+        "20:40": {
+            "fitness_room_people_count": 93,
+            "pool_people_count": 20
+        },
+        "20:50": {
+            "fitness_room_people_count": 12,
+            "pool_people_count": 16
+        },
+        "21:00": {
+            "fitness_room_people_count": 92,
+            "pool_people_count": 45
+        },
+        "21:10": {
+            "fitness_room_people_count": 20,
+            "pool_people_count": 3
+        },
+        "21:20": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 20
+        },
+        "21:30": {
+            "fitness_room_people_count": 19,
+            "pool_people_count": 22
+        },
+        "21:40": {
+            "fitness_room_people_count": 134,
+            "pool_people_count": 6
+        },
+        "21:50": {
+            "fitness_room_people_count": 96,
+            "pool_people_count": 21
+        },
+        "22:00": {
+            "fitness_room_people_count": 61,
+            "pool_people_count": 26
+        }
+    },
+    "2025-03-06": {
+        "08:00": {
+            "fitness_room_people_count": 107,
+            "pool_people_count": 39
+        },
+        "08:10": {
+            "fitness_room_people_count": 43,
+            "pool_people_count": 8
+        },
+        "08:20": {
+            "fitness_room_people_count": 30,
+            "pool_people_count": 47
+        },
+        "08:30": {
+            "fitness_room_people_count": 3,
+            "pool_people_count": 16
+        },
+        "08:40": {
+            "fitness_room_people_count": 5,
+            "pool_people_count": 1
+        },
+        "08:50": {
+            "fitness_room_people_count": 3,
+            "pool_people_count": 24
+        },
+        "09:00": {
+            "fitness_room_people_count": 96,
+            "pool_people_count": 19
+        },
+        "09:10": {
+            "fitness_room_people_count": 12,
+            "pool_people_count": 20
+        },
+        "09:20": {
+            "fitness_room_people_count": 143,
+            "pool_people_count": 50
+        },
+        "09:30": {
+            "fitness_room_people_count": 122,
+            "pool_people_count": 39
+        },
+        "09:40": {
+            "fitness_room_people_count": 181,
+            "pool_people_count": 16
+        },
+        "09:50": {
+            "fitness_room_people_count": 146,
+            "pool_people_count": 21
+        },
+        "10:00": {
+            "fitness_room_people_count": 161,
+            "pool_people_count": 38
+        },
+        "10:10": {
+            "fitness_room_people_count": 16,
+            "pool_people_count": 29
+        },
+        "10:20": {
+            "fitness_room_people_count": 5,
+            "pool_people_count": 32
+        },
+        "10:30": {
+            "fitness_room_people_count": 13,
+            "pool_people_count": 7
+        },
+        "10:40": {
+            "fitness_room_people_count": 74,
+            "pool_people_count": 19
+        },
+        "10:50": {
+            "fitness_room_people_count": 177,
+            "pool_people_count": 50
+        },
+        "11:00": {
+            "fitness_room_people_count": 28,
+            "pool_people_count": 1
+        },
+        "11:10": {
+            "fitness_room_people_count": 171,
+            "pool_people_count": 16
+        },
+        "11:20": {
+            "fitness_room_people_count": 35,
+            "pool_people_count": 8
+        },
+        "11:30": {
+            "fitness_room_people_count": 80,
+            "pool_people_count": 9
+        },
+        "11:40": {
+            "fitness_room_people_count": 32,
+            "pool_people_count": 14
+        },
+        "11:50": {
+            "fitness_room_people_count": 85,
+            "pool_people_count": 43
+        },
+        "12:00": {
+            "fitness_room_people_count": 150,
+            "pool_people_count": 46
+        },
+        "12:10": {
+            "fitness_room_people_count": 8,
+            "pool_people_count": 9
+        },
+        "12:20": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 14
+        },
+        "12:30": {
+            "fitness_room_people_count": 30,
+            "pool_people_count": 0
+        },
+        "12:40": {
+            "fitness_room_people_count": 83,
+            "pool_people_count": 42
+        },
+        "12:50": {
+            "fitness_room_people_count": 165,
+            "pool_people_count": 34
+        },
+        "13:00": {
+            "fitness_room_people_count": 96,
+            "pool_people_count": 15
+        },
+        "13:10": {
+            "fitness_room_people_count": 174,
+            "pool_people_count": 29
+        },
+        "13:20": {
+            "fitness_room_people_count": 111,
+            "pool_people_count": 40
+        },
+        "13:30": {
+            "fitness_room_people_count": 131,
+            "pool_people_count": 37
+        },
+        "13:40": {
+            "fitness_room_people_count": 130,
+            "pool_people_count": 16
+        },
+        "13:50": {
+            "fitness_room_people_count": 150,
+            "pool_people_count": 46
+        },
+        "14:00": {
+            "fitness_room_people_count": 38,
+            "pool_people_count": 17
+        },
+        "14:10": {
+            "fitness_room_people_count": 124,
+            "pool_people_count": 17
+        },
+        "14:20": {
+            "fitness_room_people_count": 148,
+            "pool_people_count": 18
+        },
+        "14:30": {
+            "fitness_room_people_count": 110,
+            "pool_people_count": 36
+        },
+        "14:40": {
+            "fitness_room_people_count": 102,
+            "pool_people_count": 13
+        },
+        "14:50": {
+            "fitness_room_people_count": 173,
+            "pool_people_count": 21
+        },
+        "15:00": {
+            "fitness_room_people_count": 76,
+            "pool_people_count": 40
+        },
+        "15:10": {
+            "fitness_room_people_count": 58,
+            "pool_people_count": 24
+        },
+        "15:20": {
+            "fitness_room_people_count": 131,
+            "pool_people_count": 45
+        },
+        "15:30": {
+            "fitness_room_people_count": 84,
+            "pool_people_count": 30
+        },
+        "15:40": {
+            "fitness_room_people_count": 95,
+            "pool_people_count": 41
+        },
+        "15:50": {
+            "fitness_room_people_count": 87,
+            "pool_people_count": 37
+        },
+        "16:00": {
+            "fitness_room_people_count": 176,
+            "pool_people_count": 25
+        },
+        "16:10": {
+            "fitness_room_people_count": 78,
+            "pool_people_count": 32
+        },
+        "16:20": {
+            "fitness_room_people_count": 70,
+            "pool_people_count": 23
+        },
+        "16:30": {
+            "fitness_room_people_count": 29,
+            "pool_people_count": 46
+        },
+        "16:40": {
+            "fitness_room_people_count": 122,
+            "pool_people_count": 34
+        },
+        "16:50": {
+            "fitness_room_people_count": 117,
+            "pool_people_count": 3
+        },
+        "17:00": {
+            "fitness_room_people_count": 177,
+            "pool_people_count": 23
+        },
+        "17:10": {
+            "fitness_room_people_count": 161,
+            "pool_people_count": 7
+        },
+        "17:20": {
+            "fitness_room_people_count": 155,
+            "pool_people_count": 7
+        },
+        "17:30": {
+            "fitness_room_people_count": 72,
+            "pool_people_count": 18
+        },
+        "17:40": {
+            "fitness_room_people_count": 23,
+            "pool_people_count": 33
+        },
+        "17:50": {
+            "fitness_room_people_count": 49,
+            "pool_people_count": 8
+        },
+        "18:00": {
+            "fitness_room_people_count": 109,
+            "pool_people_count": 34
+        },
+        "18:10": {
+            "fitness_room_people_count": 110,
+            "pool_people_count": 10
+        },
+        "18:20": {
+            "fitness_room_people_count": 110,
+            "pool_people_count": 29
+        },
+        "18:30": {
+            "fitness_room_people_count": 47,
+            "pool_people_count": 0
+        },
+        "18:40": {
+            "fitness_room_people_count": 161,
+            "pool_people_count": 3
+        },
+        "18:50": {
+            "fitness_room_people_count": 173,
+            "pool_people_count": 22
+        },
+        "19:00": {
+            "fitness_room_people_count": 86,
+            "pool_people_count": 7
+        },
+        "19:10": {
+            "fitness_room_people_count": 36,
+            "pool_people_count": 13
+        },
+        "19:20": {
+            "fitness_room_people_count": 36,
+            "pool_people_count": 21
+        },
+        "19:30": {
+            "fitness_room_people_count": 80,
+            "pool_people_count": 42
+        },
+        "19:40": {
+            "fitness_room_people_count": 65,
+            "pool_people_count": 29
+        },
+        "19:50": {
+            "fitness_room_people_count": 126,
+            "pool_people_count": 21
+        },
+        "20:00": {
+            "fitness_room_people_count": 35,
+            "pool_people_count": 18
+        },
+        "20:10": {
+            "fitness_room_people_count": 12,
+            "pool_people_count": 43
+        },
+        "20:20": {
+            "fitness_room_people_count": 165,
+            "pool_people_count": 3
+        },
+        "20:30": {
+            "fitness_room_people_count": 51,
+            "pool_people_count": 33
+        },
+        "20:40": {
+            "fitness_room_people_count": 164,
+            "pool_people_count": 19
+        },
+        "20:50": {
+            "fitness_room_people_count": 14,
+            "pool_people_count": 4
+        },
+        "21:00": {
+            "fitness_room_people_count": 128,
+            "pool_people_count": 4
+        },
+        "21:10": {
+            "fitness_room_people_count": 40,
+            "pool_people_count": 7
+        },
+        "21:20": {
+            "fitness_room_people_count": 172,
+            "pool_people_count": 26
+        },
+        "21:30": {
+            "fitness_room_people_count": 4,
+            "pool_people_count": 9
+        },
+        "21:40": {
+            "fitness_room_people_count": 73,
+            "pool_people_count": 48
+        },
+        "21:50": {
+            "fitness_room_people_count": 128,
+            "pool_people_count": 45
+        },
+        "22:00": {
+            "fitness_room_people_count": 40,
+            "pool_people_count": 25
+        }
+    },
+    "2025-03-07": {
+        "08:00": {
+            "fitness_room_people_count": 148,
+            "pool_people_count": 30
+        },
+        "08:10": {
+            "fitness_room_people_count": 125,
+            "pool_people_count": 50
+        },
+        "08:20": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 7
+        },
+        "08:30": {
+            "fitness_room_people_count": 111,
+            "pool_people_count": 20
+        },
+        "08:40": {
+            "fitness_room_people_count": 166,
+            "pool_people_count": 3
+        },
+        "08:50": {
+            "fitness_room_people_count": 113,
+            "pool_people_count": 38
+        },
+        "09:00": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 4
+        },
+        "09:10": {
+            "fitness_room_people_count": 171,
+            "pool_people_count": 14
+        },
+        "09:20": {
+            "fitness_room_people_count": 65,
+            "pool_people_count": 30
+        },
+        "09:30": {
+            "fitness_room_people_count": 85,
+            "pool_people_count": 7
+        },
+        "09:40": {
+            "fitness_room_people_count": 4,
+            "pool_people_count": 50
+        },
+        "09:50": {
+            "fitness_room_people_count": 94,
+            "pool_people_count": 40
+        },
+        "10:00": {
+            "fitness_room_people_count": 165,
+            "pool_people_count": 11
+        },
+        "10:10": {
+            "fitness_room_people_count": 73,
+            "pool_people_count": 1
+        },
+        "10:20": {
+            "fitness_room_people_count": 106,
+            "pool_people_count": 1
+        },
+        "10:30": {
+            "fitness_room_people_count": 37,
+            "pool_people_count": 13
+        },
+        "10:40": {
+            "fitness_room_people_count": 146,
+            "pool_people_count": 47
+        },
+        "10:50": {
+            "fitness_room_people_count": 45,
+            "pool_people_count": 46
+        },
+        "11:00": {
+            "fitness_room_people_count": 0,
+            "pool_people_count": 36
+        },
+        "11:10": {
+            "fitness_room_people_count": 33,
+            "pool_people_count": 31
+        },
+        "11:20": {
+            "fitness_room_people_count": 95,
+            "pool_people_count": 38
+        },
+        "11:30": {
+            "fitness_room_people_count": 131,
+            "pool_people_count": 7
+        },
+        "11:40": {
+            "fitness_room_people_count": 129,
+            "pool_people_count": 2
+        },
+        "11:50": {
+            "fitness_room_people_count": 3,
+            "pool_people_count": 11
+        },
+        "12:00": {
+            "fitness_room_people_count": 22,
+            "pool_people_count": 49
+        },
+        "12:10": {
+            "fitness_room_people_count": 88,
+            "pool_people_count": 46
+        },
+        "12:20": {
+            "fitness_room_people_count": 147,
+            "pool_people_count": 16
+        },
+        "12:30": {
+            "fitness_room_people_count": 88,
+            "pool_people_count": 31
+        },
+        "12:40": {
+            "fitness_room_people_count": 63,
+            "pool_people_count": 47
+        },
+        "12:50": {
+            "fitness_room_people_count": 20,
+            "pool_people_count": 39
+        },
+        "13:00": {
+            "fitness_room_people_count": 57,
+            "pool_people_count": 11
+        },
+        "13:10": {
+            "fitness_room_people_count": 27,
+            "pool_people_count": 1
+        },
+        "13:20": {
+            "fitness_room_people_count": 170,
+            "pool_people_count": 33
+        },
+        "13:30": {
+            "fitness_room_people_count": 139,
+            "pool_people_count": 35
+        },
+        "13:40": {
+            "fitness_room_people_count": 140,
+            "pool_people_count": 6
+        },
+        "13:50": {
+            "fitness_room_people_count": 77,
+            "pool_people_count": 25
+        },
+        "14:00": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 30
+        },
+        "14:10": {
+            "fitness_room_people_count": 1,
+            "pool_people_count": 5
+        },
+        "14:20": {
+            "fitness_room_people_count": 154,
+            "pool_people_count": 18
+        },
+        "14:30": {
+            "fitness_room_people_count": 144,
+            "pool_people_count": 4
+        },
+        "14:40": {
+            "fitness_room_people_count": 53,
+            "pool_people_count": 32
+        },
+        "14:50": {
+            "fitness_room_people_count": 36,
+            "pool_people_count": 47
+        },
+        "15:00": {
+            "fitness_room_people_count": 105,
+            "pool_people_count": 3
+        },
+        "15:10": {
+            "fitness_room_people_count": 144,
+            "pool_people_count": 18
+        },
+        "15:20": {
+            "fitness_room_people_count": 140,
+            "pool_people_count": 29
+        },
+        "15:30": {
+            "fitness_room_people_count": 40,
+            "pool_people_count": 49
+        },
+        "15:40": {
+            "fitness_room_people_count": 162,
+            "pool_people_count": 13
+        },
+        "15:50": {
+            "fitness_room_people_count": 167,
+            "pool_people_count": 36
+        },
+        "16:00": {
+            "fitness_room_people_count": 59,
+            "pool_people_count": 41
+        },
+        "16:10": {
+            "fitness_room_people_count": 131,
+            "pool_people_count": 23
+        },
+        "16:20": {
+            "fitness_room_people_count": 110,
+            "pool_people_count": 4
+        },
+        "16:30": {
+            "fitness_room_people_count": 49,
+            "pool_people_count": 20
+        },
+        "16:40": {
+            "fitness_room_people_count": 91,
+            "pool_people_count": 31
+        },
+        "16:50": {
+            "fitness_room_people_count": 114,
+            "pool_people_count": 50
+        },
+        "17:00": {
+            "fitness_room_people_count": 99,
+            "pool_people_count": 43
+        },
+        "17:10": {
+            "fitness_room_people_count": 71,
+            "pool_people_count": 1
+        },
+        "17:20": {
+            "fitness_room_people_count": 87,
+            "pool_people_count": 3
+        },
+        "17:30": {
+            "fitness_room_people_count": 166,
+            "pool_people_count": 41
+        },
+        "17:40": {
+            "fitness_room_people_count": 159,
+            "pool_people_count": 47
+        },
+        "17:50": {
+            "fitness_room_people_count": 42,
+            "pool_people_count": 41
+        },
+        "18:00": {
+            "fitness_room_people_count": 172,
+            "pool_people_count": 37
+        },
+        "18:10": {
+            "fitness_room_people_count": 71,
+            "pool_people_count": 43
+        },
+        "18:20": {
+            "fitness_room_people_count": 37,
+            "pool_people_count": 39
+        },
+        "18:30": {
+            "fitness_room_people_count": 136,
+            "pool_people_count": 29
+        },
+        "18:40": {
+            "fitness_room_people_count": 118,
+            "pool_people_count": 30
+        },
+        "18:50": {
+            "fitness_room_people_count": 33,
+            "pool_people_count": 36
+        },
+        "19:00": {
+            "fitness_room_people_count": 15,
+            "pool_people_count": 35
+        },
+        "19:10": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 24
+        },
+        "19:20": {
+            "fitness_room_people_count": 75,
+            "pool_people_count": 20
+        },
+        "19:30": {
+            "fitness_room_people_count": 4,
+            "pool_people_count": 14
+        }
+    },
+    "2025-03-08": {
+        "08:00": {
+            "fitness_room_people_count": 115,
+            "pool_people_count": 12
+        },
+        "08:10": {
+            "fitness_room_people_count": 9,
+            "pool_people_count": 2
+        },
+        "08:20": {
+            "fitness_room_people_count": 180,
+            "pool_people_count": 6
+        },
+        "08:30": {
+            "fitness_room_people_count": 161,
+            "pool_people_count": 46
+        },
+        "08:40": {
+            "fitness_room_people_count": 66,
+            "pool_people_count": 43
+        },
+        "08:50": {
+            "fitness_room_people_count": 84,
+            "pool_people_count": 40
+        },
+        "09:00": {
+            "fitness_room_people_count": 61,
+            "pool_people_count": 16
+        },
+        "09:10": {
+            "fitness_room_people_count": 23,
+            "pool_people_count": 38
+        },
+        "09:20": {
+            "fitness_room_people_count": 92,
+            "pool_people_count": 39
+        },
+        "09:30": {
+            "fitness_room_people_count": 132,
+            "pool_people_count": 45
+        },
+        "09:40": {
+            "fitness_room_people_count": 27,
+            "pool_people_count": 23
+        },
+        "09:50": {
+            "fitness_room_people_count": 36,
+            "pool_people_count": 38
+        },
+        "10:00": {
+            "fitness_room_people_count": 5,
+            "pool_people_count": 21
+        },
+        "10:10": {
+            "fitness_room_people_count": 88,
+            "pool_people_count": 29
+        },
+        "10:20": {
+            "fitness_room_people_count": 3,
+            "pool_people_count": 12
+        },
+        "10:30": {
+            "fitness_room_people_count": 122,
+            "pool_people_count": 19
+        },
+        "10:40": {
+            "fitness_room_people_count": 68,
+            "pool_people_count": 23
+        },
+        "10:50": {
+            "fitness_room_people_count": 57,
+            "pool_people_count": 23
+        },
+        "11:00": {
+            "fitness_room_people_count": 143,
+            "pool_people_count": 37
+        },
+        "11:10": {
+            "fitness_room_people_count": 156,
+            "pool_people_count": 46
+        },
+        "11:20": {
+            "fitness_room_people_count": 136,
+            "pool_people_count": 45
+        },
+        "11:30": {
+            "fitness_room_people_count": 181,
+            "pool_people_count": 18
+        },
+        "11:40": {
+            "fitness_room_people_count": 49,
+            "pool_people_count": 10
+        },
+        "11:50": {
+            "fitness_room_people_count": 56,
+            "pool_people_count": 3
+        },
+        "12:00": {
+            "fitness_room_people_count": 170,
+            "pool_people_count": 17
+        },
+        "12:10": {
+            "fitness_room_people_count": 10,
+            "pool_people_count": 6
+        },
+        "12:20": {
+            "fitness_room_people_count": 172,
+            "pool_people_count": 3
+        },
+        "12:30": {
+            "fitness_room_people_count": 73,
+            "pool_people_count": 15
+        },
+        "12:40": {
+            "fitness_room_people_count": 158,
+            "pool_people_count": 4
+        },
+        "12:50": {
+            "fitness_room_people_count": 102,
+            "pool_people_count": 24
+        },
+        "13:00": {
+            "fitness_room_people_count": 88,
+            "pool_people_count": 40
+        },
+        "13:10": {
+            "fitness_room_people_count": 37,
+            "pool_people_count": 19
+        },
+        "13:20": {
+            "fitness_room_people_count": 4,
+            "pool_people_count": 26
+        },
+        "13:30": {
+            "fitness_room_people_count": 13,
+            "pool_people_count": 34
+        },
+        "13:40": {
+            "fitness_room_people_count": 122,
+            "pool_people_count": 43
+        },
+        "13:50": {
+            "fitness_room_people_count": 67,
+            "pool_people_count": 25
+        },
+        "14:00": {
+            "fitness_room_people_count": 12,
+            "pool_people_count": 4
+        },
+        "14:10": {
+            "fitness_room_people_count": 102,
+            "pool_people_count": 0
+        },
+        "14:20": {
+            "fitness_room_people_count": 163,
+            "pool_people_count": 37
+        },
+        "14:30": {
+            "fitness_room_people_count": 9,
+            "pool_people_count": 14
+        },
+        "14:40": {
+            "fitness_room_people_count": 12,
+            "pool_people_count": 42
+        },
+        "14:50": {
+            "fitness_room_people_count": 83,
+            "pool_people_count": 22
+        },
+        "15:00": {
+            "fitness_room_people_count": 92,
+            "pool_people_count": 29
+        },
+        "15:10": {
+            "fitness_room_people_count": 83,
+            "pool_people_count": 2
+        },
+        "15:20": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 18
+        },
+        "15:30": {
+            "fitness_room_people_count": 1,
+            "pool_people_count": 20
+        },
+        "15:40": {
+            "fitness_room_people_count": 130,
+            "pool_people_count": 18
+        },
+        "15:50": {
+            "fitness_room_people_count": 140,
+            "pool_people_count": 22
+        },
+        "16:00": {
+            "fitness_room_people_count": 130,
+            "pool_people_count": 20
+        },
+        "16:10": {
+            "fitness_room_people_count": 160,
+            "pool_people_count": 8
+        },
+        "16:20": {
+            "fitness_room_people_count": 60,
+            "pool_people_count": 36
+        },
+        "16:30": {
+            "fitness_room_people_count": 140,
+            "pool_people_count": 18
+        },
+        "16:40": {
+            "fitness_room_people_count": 99,
+            "pool_people_count": 39
+        },
+        "16:50": {
+            "fitness_room_people_count": 45,
+            "pool_people_count": 1
+        },
+        "17:00": {
+            "fitness_room_people_count": 118,
+            "pool_people_count": 50
+        },
+        "17:10": {
+            "fitness_room_people_count": 126,
+            "pool_people_count": 46
+        },
+        "17:20": {
+            "fitness_room_people_count": 53,
+            "pool_people_count": 28
+        },
+        "17:30": {
+            "fitness_room_people_count": 21,
+            "pool_people_count": 35
+        },
+        "17:40": {
+            "fitness_room_people_count": 119,
+            "pool_people_count": 18
+        },
+        "17:50": {
+            "fitness_room_people_count": 21,
+            "pool_people_count": 37
+        },
+        "18:00": {
+            "fitness_room_people_count": 2,
+            "pool_people_count": 27
+        },
+        "18:10": {
+            "fitness_room_people_count": 170,
+            "pool_people_count": 11
+        },
+        "18:20": {
+            "fitness_room_people_count": 28,
+            "pool_people_count": 32
+        },
+        "18:30": {
+            "fitness_room_people_count": 173,
+            "pool_people_count": 0
+        },
+        "18:40": {
+            "fitness_room_people_count": 112,
+            "pool_people_count": 17
+        },
+        "18:50": {
+            "fitness_room_people_count": 143,
+            "pool_people_count": 12
+        },
+        "19:00": {
+            "fitness_room_people_count": 133,
+            "pool_people_count": 43
+        },
+        "19:10": {
+            "fitness_room_people_count": 77,
+            "pool_people_count": 45
+        },
+        "19:20": {
+            "fitness_room_people_count": 77,
+            "pool_people_count": 3
+        },
+        "19:30": {
+            "fitness_room_people_count": 134,
+            "pool_people_count": 45
+        },
+        "19:40": {
+            "fitness_room_people_count": 171,
+            "pool_people_count": 26
+        },
+        "19:50": {
+            "fitness_room_people_count": 173,
+            "pool_people_count": 3
+        },
+        "20:00": {
+            "fitness_room_people_count": 181,
+            "pool_people_count": 35
+        },
+        "20:10": {
+            "fitness_room_people_count": 45,
+            "pool_people_count": 0
+        },
+        "20:20": {
+            "fitness_room_people_count": 107,
+            "pool_people_count": 5
+        },
+        "20:30": {
+            "fitness_room_people_count": 171,
+            "pool_people_count": 26
+        },
+        "20:40": {
+            "fitness_room_people_count": 74,
+            "pool_people_count": 2
+        },
+        "20:50": {
+            "fitness_room_people_count": 17,
+            "pool_people_count": 23
+        },
+        "21:00": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 23
+        },
+        "21:10": {
+            "fitness_room_people_count": 169,
+            "pool_people_count": 34
+        },
+        "21:20": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 16
+        },
+        "21:30": {
+            "fitness_room_people_count": 172,
+            "pool_people_count": 36
+        },
+        "21:40": {
+            "fitness_room_people_count": 150,
+            "pool_people_count": 17
+        },
+        "21:50": {
+            "fitness_room_people_count": 116,
+            "pool_people_count": 23
+        },
+        "22:00": {
+            "fitness_room_people_count": 1,
+            "pool_people_count": 8
+        }
+    },
+    "2025-03-09": {
+        "08:00": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 6
+        },
+        "08:10": {
+            "fitness_room_people_count": 52,
+            "pool_people_count": 22
+        },
+        "08:20": {
+            "fitness_room_people_count": 32,
+            "pool_people_count": 18
+        },
+        "08:30": {
+            "fitness_room_people_count": 61,
+            "pool_people_count": 14
+        },
+        "08:40": {
+            "fitness_room_people_count": 59,
+            "pool_people_count": 26
+        },
+        "08:50": {
+            "fitness_room_people_count": 180,
+            "pool_people_count": 14
+        },
+        "09:00": {
+            "fitness_room_people_count": 37,
+            "pool_people_count": 19
+        },
+        "09:10": {
+            "fitness_room_people_count": 149,
+            "pool_people_count": 9
+        },
+        "09:20": {
+            "fitness_room_people_count": 127,
+            "pool_people_count": 37
+        },
+        "09:30": {
+            "fitness_room_people_count": 180,
+            "pool_people_count": 8
+        },
+        "09:40": {
+            "fitness_room_people_count": 108,
+            "pool_people_count": 35
+        },
+        "09:50": {
+            "fitness_room_people_count": 75,
+            "pool_people_count": 23
+        },
+        "10:00": {
+            "fitness_room_people_count": 176,
+            "pool_people_count": 1
+        },
+        "10:10": {
+            "fitness_room_people_count": 41,
+            "pool_people_count": 12
+        },
+        "10:20": {
+            "fitness_room_people_count": 113,
+            "pool_people_count": 28
+        },
+        "10:30": {
+            "fitness_room_people_count": 24,
+            "pool_people_count": 41
+        },
+        "10:40": {
+            "fitness_room_people_count": 82,
+            "pool_people_count": 42
+        },
+        "10:50": {
+            "fitness_room_people_count": 104,
+            "pool_people_count": 21
+        },
+        "11:00": {
+            "fitness_room_people_count": 9,
+            "pool_people_count": 27
+        },
+        "11:10": {
+            "fitness_room_people_count": 11,
+            "pool_people_count": 7
+        },
+        "11:20": {
+            "fitness_room_people_count": 8,
+            "pool_people_count": 25
+        },
+        "11:30": {
+            "fitness_room_people_count": 116,
+            "pool_people_count": 2
+        },
+        "11:40": {
+            "fitness_room_people_count": 134,
+            "pool_people_count": 43
+        },
+        "11:50": {
+            "fitness_room_people_count": 48,
+            "pool_people_count": 9
+        },
+        "12:00": {
+            "fitness_room_people_count": 70,
+            "pool_people_count": 49
+        },
+        "12:10": {
+            "fitness_room_people_count": 65,
+            "pool_people_count": 41
+        },
+        "12:20": {
+            "fitness_room_people_count": 33,
+            "pool_people_count": 9
+        },
+        "12:30": {
+            "fitness_room_people_count": 117,
+            "pool_people_count": 10
+        },
+        "12:40": {
+            "fitness_room_people_count": 90,
+            "pool_people_count": 13
+        },
+        "12:50": {
+            "fitness_room_people_count": 29,
+            "pool_people_count": 15
+        },
+        "13:00": {
+            "fitness_room_people_count": 151,
+            "pool_people_count": 16
+        },
+        "13:10": {
+            "fitness_room_people_count": 25,
+            "pool_people_count": 8
+        },
+        "13:20": {
+            "fitness_room_people_count": 82,
+            "pool_people_count": 10
+        },
+        "13:30": {
+            "fitness_room_people_count": 55,
+            "pool_people_count": 13
+        },
+        "13:40": {
+            "fitness_room_people_count": 96,
+            "pool_people_count": 15
+        },
+        "13:50": {
+            "fitness_room_people_count": 77,
+            "pool_people_count": 2
+        },
+        "14:00": {
+            "fitness_room_people_count": 122,
+            "pool_people_count": 2
+        },
+        "14:10": {
+            "fitness_room_people_count": 161,
+            "pool_people_count": 4
+        },
+        "14:20": {
+            "fitness_room_people_count": 156,
+            "pool_people_count": 46
+        },
+        "14:30": {
+            "fitness_room_people_count": 15,
+            "pool_people_count": 38
+        },
+        "14:40": {
+            "fitness_room_people_count": 84,
+            "pool_people_count": 16
+        },
+        "14:50": {
+            "fitness_room_people_count": 59,
+            "pool_people_count": 29
+        },
+        "15:00": {
+            "fitness_room_people_count": 125,
+            "pool_people_count": 41
+        },
+        "15:10": {
+            "fitness_room_people_count": 11,
+            "pool_people_count": 1
+        },
+        "15:20": {
+            "fitness_room_people_count": 79,
+            "pool_people_count": 16
+        },
+        "15:30": {
+            "fitness_room_people_count": 102,
+            "pool_people_count": 39
+        },
+        "15:40": {
+            "fitness_room_people_count": 168,
+            "pool_people_count": 17
+        },
+        "15:50": {
+            "fitness_room_people_count": 12,
+            "pool_people_count": 41
+        },
+        "16:00": {
+            "fitness_room_people_count": 25,
+            "pool_people_count": 13
+        },
+        "16:10": {
+            "fitness_room_people_count": 47,
+            "pool_people_count": 38
+        },
+        "16:20": {
+            "fitness_room_people_count": 72,
+            "pool_people_count": 34
+        },
+        "16:30": {
+            "fitness_room_people_count": 2,
+            "pool_people_count": 18
+        },
+        "16:40": {
+            "fitness_room_people_count": 4,
+            "pool_people_count": 32
+        },
+        "16:50": {
+            "fitness_room_people_count": 171,
+            "pool_people_count": 13
+        },
+        "17:00": {
+            "fitness_room_people_count": 160,
+            "pool_people_count": 18
+        },
+        "17:10": {
+            "fitness_room_people_count": 122,
+            "pool_people_count": 20
+        },
+        "17:20": {
+            "fitness_room_people_count": 161,
+            "pool_people_count": 30
+        },
+        "17:30": {
+            "fitness_room_people_count": 146,
+            "pool_people_count": 17
+        },
+        "17:40": {
+            "fitness_room_people_count": 21,
+            "pool_people_count": 36
+        },
+        "17:50": {
+            "fitness_room_people_count": 152,
+            "pool_people_count": 27
+        },
+        "18:00": {
+            "fitness_room_people_count": 40,
+            "pool_people_count": 23
+        },
+        "18:10": {
+            "fitness_room_people_count": 136,
+            "pool_people_count": 23
+        },
+        "18:20": {
+            "fitness_room_people_count": 103,
+            "pool_people_count": 15
+        },
+        "18:30": {
+            "fitness_room_people_count": 109,
+            "pool_people_count": 43
+        },
+        "18:40": {
+            "fitness_room_people_count": 44,
+            "pool_people_count": 39
+        },
+        "18:50": {
+            "fitness_room_people_count": 44,
+            "pool_people_count": 32
+        },
+        "19:00": {
+            "fitness_room_people_count": 166,
+            "pool_people_count": 47
+        },
+        "19:10": {
+            "fitness_room_people_count": 32,
+            "pool_people_count": 5
+        },
+        "19:20": {
+            "fitness_room_people_count": 114,
+            "pool_people_count": 9
+        },
+        "19:30": {
+            "fitness_room_people_count": 113,
+            "pool_people_count": 38
+        },
+        "19:40": {
+            "fitness_room_people_count": 82,
+            "pool_people_count": 39
+        },
+        "19:50": {
+            "fitness_room_people_count": 70,
+            "pool_people_count": 5
+        },
+        "20:00": {
+            "fitness_room_people_count": 48,
+            "pool_people_count": 7
+        },
+        "20:10": {
+            "fitness_room_people_count": 152,
+            "pool_people_count": 12
+        },
+        "20:20": {
+            "fitness_room_people_count": 86,
+            "pool_people_count": 22
+        },
+        "20:30": {
+            "fitness_room_people_count": 153,
+            "pool_people_count": 35
+        },
+        "20:40": {
+            "fitness_room_people_count": 141,
+            "pool_people_count": 40
+        },
+        "20:50": {
+            "fitness_room_people_count": 49,
+            "pool_people_count": 3
+        },
+        "21:00": {
+            "fitness_room_people_count": 18,
+            "pool_people_count": 35
+        },
+        "21:10": {
+            "fitness_room_people_count": 48,
+            "pool_people_count": 24
+        },
+        "21:20": {
+            "fitness_room_people_count": 61,
+            "pool_people_count": 48
+        },
+        "21:30": {
+            "fitness_room_people_count": 115,
+            "pool_people_count": 37
+        },
+        "21:40": {
+            "fitness_room_people_count": 101,
+            "pool_people_count": 31
+        },
+        "21:50": {
+            "fitness_room_people_count": 99,
+            "pool_people_count": 14
+        },
+        "22:00": {
+            "fitness_room_people_count": 100,
+            "pool_people_count": 32
+        }
+    }
+}
