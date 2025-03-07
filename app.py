@@ -3,43 +3,43 @@ import io
 import base64
 import numpy as np
 import matplotlib
-matplotlib.use('Agg')  # Serverseitiges Backend ohne GUI
+matplotlib.use('Agg')  # Server-side backend without GUI
 
 import matplotlib.pyplot as plt
 import seaborn as sns
 from flask import Flask, render_template, request
 from datetime import datetime
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 app = Flask(__name__)
 
 OCCUPANCY_NOT_FOUND = -1
 
-# Deaktiviert das Caching für die Antworten
+# Disables caching for the responses
 @app.after_request
 def add_header(response):
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
     response.headers["Expires"] = "0"
     return response
 
-# Lade die JSON-Daten aus der Datei
-def load_json_data():
+# Load the JSON data from the file
+def load_json_data() -> dict:
     with open("occupancy_data/occupancy_data_example.json", "r") as file:
         return json.load(file)
 
-# Funktion zur Umwandlung der englischen Wochentage in die HTML-kompatiblen Kürzel
-def get_weekday_short(weekday):
+# Function to convert English weekdays to HTML-compatible abbreviations
+def get_weekday_short(weekday: str) -> str:
     weekday_map = {
         "Mon": "Mo", "Tue": "Tu", "Wed": "We", "Thu": "Th",
         "Fri": "Fr", "Sat": "Sa", "Sun": "Su"
     }
     return weekday_map.get(weekday, "")
 
-# Falls der übergebene Tag (z.B. 'Mo') nicht in den Daten vorkommt, wird das erste verfügbare Datum zurückgegeben
-def get_full_date_from_weekday(selected_day, json_data):
+# If the provided day (e.g. 'Mo') is not found in the data, it returns the first available date
+def get_full_date_from_weekday(selected_day: str, json_data: dict) -> str:
     if selected_day in json_data:
         return selected_day
-    # Wenn der Parameter zwei Zeichen lang ist, versuchen wir eine Übereinstimmung anhand des Wochentagskürzels
+    # If the parameter is two characters long, try to match based on the weekday abbreviation
     if len(selected_day) == 2:
         matching_dates = [
             d for d in json_data.keys()
@@ -47,25 +47,25 @@ def get_full_date_from_weekday(selected_day, json_data):
         ]
         if matching_dates:
             return sorted(matching_dates)[0]
-    # Fallback: Gib das erste Datum in den JSON-Daten zurück
+    # Fallback: Return the first date in the JSON data
     if json_data:
         return sorted(json_data.keys())[0]
     return selected_day
 
-# Erzeugt eine Liste von Stunden (08:00 bis 22:00) und füllt fehlende Werte mit 0
-def get_hourly_data(daily_data, key):
+# Creates a list of hours (08:00 to 22:00) and fills missing values with 0
+def get_hourly_data(daily_data: Dict[str, Dict[str, int]], key: str) -> Tuple[List[str], List[int]]:
     hours = [f"{hour:02d}:00" for hour in range(8, 23)]
     counts = [daily_data.get(hour, {}).get(key, 0) for hour in hours]
     return hours, counts
 
 # Create a list of 10-minute intervals from 08:00 to 22:00 and fill missing values with 0
-def get_ten_minute_data(daily_data, key):
+def get_ten_minute_data(daily_data: Dict[str, Dict[str, int]], key: str) -> Tuple[List[str], List[int]]:
     times = [f"{hour:02d}:{minute:02d}" for hour in range(8, 22) for minute in range(0, 60, 10)]
     times.append("22:00")  # Ensure last entry is 22:00
     counts = [daily_data.get(time, {}).get(key, 0) for time in times]
     return times, counts
 
-def create_bar_plot(times, counts, title, color):
+def create_bar_plot(times: List[str], counts: List[int], title: str, color: str) -> str:
     sns.set(style="white")
     fig, ax = plt.subplots(figsize=(8, 3), dpi=200)
     ax.bar(times, counts, color=color)
@@ -86,13 +86,13 @@ def create_bar_plot(times, counts, title, color):
     plt.close()
     return plot_url
 
-# Erzeugt einen leeren Plot, falls für einen Tag keine Daten vorliegen
-def create_empty_plot():
+# Creates an empty plot if no data is available for a given day
+def create_empty_plot() -> str:
     hours = [f"{hour:02d}:00" for hour in range(8, 23)]
     counts = [0] * len(hours)
     return create_bar_plot(hours, counts, "No Data available", "grey")
 
-def create_colored_bar_plot(times, counts, colors, primary_color, title):
+def create_colored_bar_plot(times: List[str], counts: List[int], colors: List[str], primary_color: str, title: str) -> str:
     sns.set(style="white")
     fig, ax = plt.subplots(figsize=(14, 5), dpi=200)
 
@@ -121,7 +121,7 @@ def create_colored_bar_plot(times, counts, colors, primary_color, title):
     
     return plot_url
 
-def generate_daily_uccupany_plot(selected_day: str, json_data: dict, key: str, title: str, color: str):
+def generate_daily_uccupany_plot(selected_day: str, json_data: dict, key: str, title: str, color: str) -> str:
     daily_data: Dict[str, Dict[str, int]] = json_data.get(selected_day, {})
 
     # Get the current time in HH:MM format
@@ -159,7 +159,7 @@ def generate_daily_uccupany_plot(selected_day: str, json_data: dict, key: str, t
 
     return day_plot
 
-def generate_weekly_occupancy_plot(json_data: dict, key: str, title: str, color: str):
+def generate_weekly_occupancy_plot(json_data: dict, key: str, title: str, color: str) -> str:
     # Define the days of the week (Monday to Sunday)
     days_of_week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
@@ -208,7 +208,7 @@ def index():
     selected_button = request.args.get('button', 'gym')
     
     json_data = load_json_data()
-    # Stelle sicher, dass ein vorhandenes Datum genutzt wird
+    # Ensure that an existing date is used
     selected_day_full = get_full_date_from_weekday(selected_day, json_data)
     
     if selected_button == 'swimmingPool':
