@@ -52,12 +52,6 @@ def get_full_date_from_weekday(selected_day: str, json_data: dict) -> str:
         return sorted(json_data.keys())[0]
     return selected_day
 
-# Creates a list of hours (08:00 to 22:00) and fills missing values with 0
-def get_hourly_data(daily_data: Dict[str, Dict[str, int]], key: str) -> Tuple[List[str], List[int]]:
-    hours = [f"{hour:02d}:00" for hour in range(8, 23)]
-    counts = [daily_data.get(hour, {}).get(key, 0) for hour in hours]
-    return hours, counts
-
 # Create a list of 10-minute intervals from 08:00 to 22:00 and fill missing values with 0
 def get_ten_minute_data(daily_data: Dict[str, Dict[str, int]], key: str) -> Tuple[List[str], List[int]]:
     times = [f"{hour:02d}:{minute:02d}" for hour in range(8, 22) for minute in range(0, 60, 10)]
@@ -85,12 +79,6 @@ def create_bar_plot(times: List[str], counts: List[int], title: str, color: str)
     plot_url = base64.b64encode(img.getvalue()).decode()
     plt.close()
     return plot_url
-
-# Creates an empty plot if no data is available for a given day
-def create_empty_plot() -> str:
-    hours = [f"{hour:02d}:00" for hour in range(8, 23)]
-    counts = [0] * len(hours)
-    return create_bar_plot(hours, counts, "No Data available", "grey")
 
 def create_colored_bar_plot(times: List[str], counts: List[int], colors: List[str], primary_color: str, title: str) -> str:
     sns.set(style="white")
