@@ -29,6 +29,7 @@ def add_header(response):
 
 # Load the JSON data from the file
 def load_json_data() -> dict:
+    # TODO: Load the actual JSON data from the file
     with open("occupancy_data/occupancy_data_example.json", "r") as file:
         return json.load(file)
 
@@ -174,6 +175,7 @@ def generate_daily_uccupany_plot(
     # Extract today's data for each 10-minute slot
     values = [daily_data.get(time, {}).get(key, OCCUPANCY_NOT_FOUND) for time in times]
 
+    # TODO only calculate average when needed (i.e., when there is no data) -> improve performance, separate function
     # Calculate averages for each 10-minute slot from past days
     weekday_occupancy = {time: [] for time in times}
     for times_data in json_data.values():
@@ -195,6 +197,7 @@ def generate_daily_uccupany_plot(
             and selected_day == datetime.today().strftime("%Y-%m-%d")
         ) or values[times.index(time)] == OCCUPANCY_NOT_FOUND:
             bar_colors.append("grey")
+            # TODO only calculate average when needed (i.e., when there is no data) -> improve performance, separate function
             values[times.index(time)] = avg_occupancy_per_time.get(time)  # Use average
 
         elif time <= current_time or selected_day != datetime.today().strftime(
