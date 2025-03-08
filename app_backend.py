@@ -14,18 +14,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from flask import Flask, render_template, request
 
-app = Flask(__name__)
 
 OCCUPANCY_NOT_FOUND = -1
 
-
+app = Flask(__name__)
 # Disables caching for the responses
 @app.after_request
 def add_header(response):
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
     response.headers["Expires"] = "0"
     return response
-
 
 # Load the JSON data from the file
 def load_json_data() -> dict:
@@ -296,6 +294,8 @@ def index():
         selected_button=selected_button,
     )
 
+def run_app():
+    app.run(debug=True, port=8080, host="0.0.0.0")
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8080, host="0.0.0.0")
+    run_app()
